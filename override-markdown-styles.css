@@ -132,3 +132,7 @@ blockquote {
 	height: 20px;
 	vertical-align: -15%;
 }
+
+@media print {
+  .page-anchor {page-break-after: always;}
+}
