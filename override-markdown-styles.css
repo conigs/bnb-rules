@@ -134,5 +134,5 @@ blockquote {
 }
 
 @media print {
-  .page-anchor {page-break-before: always;}
+  .page-anchor {page-break-before: always !important;}
 }
